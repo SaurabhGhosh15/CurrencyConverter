@@ -7,8 +7,6 @@ const toSelect = document.querySelector('.to select');
 const amount = document.querySelector('input');
 const message = document.querySelector('.msg');
 
-
-
 for(select of dropdowns){
     for (currCode in countryList){
         let newOption = document.createElement('option');
